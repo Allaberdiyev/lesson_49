@@ -1,13 +1,9 @@
-
-
 import 'package:dars_49/lib1/model/reminder_controller.dart.dart';
 import 'package:flutter/material.dart';
 
 class ReminderController with ChangeNotifier {
   List<Reminder> _reminders = [
-    Reminder(title: 'Eslatma 1'),
-    Reminder(title: 'Eslatma 2'),
-    Reminder(title: 'Eslatma 3'),
+    Reminder(title: 'Eslatma'),
   ];
 
   List<Reminder> get reminders => _reminders;

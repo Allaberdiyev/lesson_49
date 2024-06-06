@@ -1,4 +1,3 @@
-
 import 'package:dars_49/lib1/page/charGPT.dart';
 import 'package:dars_49/lib1/page/flutter_page.dart';
 import 'package:dars_49/lib1/page/phpPage.dart';
@@ -27,7 +26,7 @@ class TaskGridView extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Colors.red,
+                  color: Color.fromARGB(255, 191, 208, 195),
                 ),
                 child: Center(
                   child: Text(
@@ -50,7 +49,7 @@ class TaskGridView extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Colors.green,
+                  color: Color.fromARGB(255, 191, 208, 195),
                 ),
                 child: Center(
                   child: Text(
@@ -66,14 +65,14 @@ class TaskGridView extends StatelessWidget {
           GestureDetector(
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => ChatGPTpage() ),
+              MaterialPageRoute(builder: (context) => ChatGPTpage()),
             ),
             child: Padding(
               padding: const EdgeInsets.all(5),
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Colors.red,
+                  color: Color.fromARGB(255, 191, 208, 195),
                 ),
                 child: Center(
                   child: Text(

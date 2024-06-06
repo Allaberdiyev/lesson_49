@@ -55,7 +55,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               TextField(
                 controller: _firstNameController,
                 decoration: InputDecoration(
-                  labelText: 'Isim',
+                  labelText: 'Ism',
                   border: OutlineInputBorder(),
                 ),
               ),
@@ -63,7 +63,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               TextField(
                 controller: _lastNameController,
                 decoration: InputDecoration(
-                  labelText: 'Familiya',
+                  labelText: 'Familya',
                   border: OutlineInputBorder(),
                 ),
               ),
@@ -81,7 +81,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 onPressed: () {
                   _saveProfileData();
                 },
-                child: Text('Save'),
+                child: Text('Saqlash'),
               ),
             ],
           ),

@@ -65,7 +65,6 @@ class _HomePageState extends State<HomePage> {
                         onTap: () {},
                         child: const CircleAvatar(
                           radius: 30,
-                          backgroundImage: AssetImage('assets/asom.png'),
                         ),
                       ),
                       const Spacer(),

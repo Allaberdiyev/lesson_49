@@ -1,16 +1,9 @@
-
-
-
 import 'package:dars_49/lib1/model/task_model.dart';
 import 'package:flutter/material.dart';
 
-
 class TaskController with ChangeNotifier {
   List<Task> _tasks = [
-    Task(title: 'Reja 1', completed: true),
-    Task(title: 'Reja 2', completed: true),
-    Task(title: 'Reja 3', completed: false),
-    Task(title: 'Reja 4', completed: false),
+    Task(title: 'Reja ', completed: true),
   ];
 
   List<Task> get tasks => _tasks;
@@ -29,10 +22,9 @@ class TaskController with ChangeNotifier {
     _tasks[index].completed = !_tasks[index].completed;
     notifyListeners();
   }
-    void deleteTask(int index) {
+
+  void deleteTask(int index) {
     _tasks.removeAt(index);
     notifyListeners();
   }
 }
-
-

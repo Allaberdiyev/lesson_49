@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: Colors.red,
+                      color: Color.fromARGB(255, 146, 146, 146),
                     ),
                     child: Center(
                       child: Text(
@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: Colors.green,
+                      color: Color.fromARGB(255, 146, 146, 146),
                     ),
                     child: Center(
                       child: Text(
@@ -78,9 +78,8 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         Container(
-          width: double.infinity,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(30),
             color: widget.settingsController.appBarColor,
           ),
           child: Padding(
@@ -89,10 +88,7 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 Text(
                   "Kurslar",
-                  style: TextStyle(
-                    fontSize: 30,
-                    color: widget.settingsController.bodyTextColor,
-                  ),
+                  style: TextStyle(fontSize: 20, color: Colors.black),
                 ),
                 Spacer(),
                 IconButton(

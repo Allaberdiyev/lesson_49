@@ -2,7 +2,6 @@ import 'package:dars_49/lib2/model/setting_model.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-
 class SettingsController with ChangeNotifier {
   SettingsModel _settings = SettingsModel(
     isDarkMode: false,
@@ -27,7 +26,6 @@ class SettingsController with ChangeNotifier {
     _settings = SettingsModel(
       isDarkMode: prefs.getBool('isDarkMode') ?? false,
       appBarColor: prefs.getInt('appBarColor') ?? Colors.blue.value,
-      // bodyTextSize: prefs.getDouble('bodyTextSize') ?? 16.0,
       bodyTextColor: prefs.getInt('bodyTextColor') ?? Colors.black.value,
       pinCode: prefs.getString('pinCode') ?? '',
       isPinEnabled: prefs.getBool('isPinEnabled') ?? false,
