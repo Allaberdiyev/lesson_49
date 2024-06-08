@@ -16,7 +16,7 @@ class ProfileController with ChangeNotifier {
     _firstName = firstName;
     notifyListeners();
   }
-
+/////////
   void updateLastName(String lastName) {
     _lastName = lastName;
     notifyListeners();
