@@ -26,7 +26,7 @@ class TaskGridView extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Color.fromARGB(255, 191, 208, 195),
+                  color: const Color.fromARGB(255, 191, 208, 195),
                 ),
                 child: Center(
                   child: Text(
