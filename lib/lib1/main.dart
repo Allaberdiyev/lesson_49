@@ -17,7 +17,6 @@ void main() async {
 class MyApp extends StatelessWidget {
   final SettingsController settingsController;
 
-  ///..l
 
   MyApp(this.settingsController);
 
